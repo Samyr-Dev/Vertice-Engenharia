@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vértice engenharia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/Logo%20Vértice.jpeg">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Vértice engenharia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre" id ="toggle-sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa especializada em construções de engenharia civil, buscando sempre aperfeiçoar os pedidos para algo além.</p>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" style="display: none;">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Construção</h3>
+                    <p>Projetos completos para construção civil.</p>
+                </div>
+                <div class="card">
+                    <h3>Reformas</h3>
+                    <p>Transforme e valorize seu imóvel com nossas reformas.</p>
+                </div>
+                <div class="card">
+                    <h3>Consultoria</h3>
+                    <p>Orientação técnica para seu projeto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Projetos Recentes</h2>
+            <div class="grid">
+
+                <div class="project">
+                    <video src="assets/projeto1.mp4." controls width="1000" height="460">
+                        Seu navegador não suporta o elemento <code>video</code>.
+                    </video>
+                    <h3>Galpão comercial - Guapó-GO</h3>
+                </div>
+
+
+                <div class="project">
+                    <img src="assets/projeto%204.jpeg" alt="Projeto 4" title="Galpão com vão livre de 23m, Turvânia-GO">
+                    <h3>Galpão no campo - Turvânia-GO</h3>
+                </div>
+
+
+                <div class="project2">
+                    <img src="assets/Projetos%202%20e%203/projeto%202.jpeg" alt="Projeto 2">
+                    <h3>Bloco triangular de 3 estacas</h3>
+                </div>
+                <div class="project2">
+                    <img src="assets/Projetos%202%20e%203/projeto%203.jpeg" alt="Projeto 3" >
+                    <h3>Bloco triangular de 3 estacas</h3>
+                </div>
+
+                <div class="tooltip">
+                    <img src="assets/imagem%20teste.jpg" alt="Projeto 5">
+                    <span class="tooltip-text">Obra de galpão no campo, com vão livre de 23m com estrutura em aço, localizado em Turvânia-GO, totalizando 690 m²</span>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; Vértice engenharia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
